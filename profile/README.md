@@ -39,15 +39,16 @@ Everything you see on stream or on the site runs on tools we actually understand
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 ![Home Assistant](https://img.shields.io/badge/Home%20Assistant-41BDF5?style=flat-square&logo=homeassistant&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 ![OBS](https://img.shields.io/badge/OBS-302E31?style=flat-square&logo=obsstudio&logoColor=white)
 ![Twitch API](https://img.shields.io/badge/Twitch%20API-9146FF?style=flat-square&logo=twitch&logoColor=white)
 
 </div>
 
 ```
-Sensors  →  MQTT  →  Home Assistant  →  VictoriaMetrics  →  live on stream & website
+Sensors  →  API / Home Assistant (HTTP)  →  VictoriaMetrics  →  live on stream & website
+MQTT  →  model railway 🚂
 ```
 
 Real temperature. Real humidity. Real VPD. Streamed and logged, around the clock.
